@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-09T04:06:30.445Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="53hwYyMZy12D2GAizYmD" version="20.5.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-11-10T07:11:19.616Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="iJOgF_tMFMm9JWzLEJKq" version="20.5.3" type="github" pages="3">
   <diagram id="4_VP_UPlwPBC3L0X7IEa" name="Page-1">
-    <mxGraphModel dx="946" dy="645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -111,6 +111,41 @@
         <mxCell id="1" parent="0" />
         <mxCell id="jHe_ol11IO5wYbG9u7IY-1" value="axios : it is a library which is used to handle the rest apis.&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=21;" vertex="1" parent="1">
           <mxGeometry x="100" y="210" width="550" height="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="tY8u3sY15umQmTK5n73a" name="Page-3">
+    <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Qz5oBPNfceQtoKB5egJO-9" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="30" y="750" width="620" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="Qz5oBPNfceQtoKB5egJO-1" value="class based component" style="rounded=1;whiteSpace=wrap;html=1;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="111" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qz5oBPNfceQtoKB5egJO-2" value="React.Component" style="whiteSpace=wrap;html=1;fontSize=21;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="250" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qz5oBPNfceQtoKB5egJO-3" value="Constructor&amp;nbsp;&lt;br&gt;super method&amp;nbsp;&lt;br&gt;all the methods , state manipulation will happen , life cycle events will be called .===&amp;gt; complex one." style="whiteSpace=wrap;html=1;fontSize=21;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="380" width="250" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Qz5oBPNfceQtoKB5egJO-4" value="Function based component." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="340" y="690" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Qz5oBPNfceQtoKB5egJO-5" value="Functional based Component" style="rounded=1;whiteSpace=wrap;html=1;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="280" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qz5oBPNfceQtoKB5egJO-6" value="useState hook" style="whiteSpace=wrap;html=1;fontSize=21;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qz5oBPNfceQtoKB5egJO-7" value="useEffect" style="rounded=1;whiteSpace=wrap;html=1;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="510" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qz5oBPNfceQtoKB5egJO-8" value="costom Hook" style="rounded=1;whiteSpace=wrap;html=1;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="80" y="880" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
