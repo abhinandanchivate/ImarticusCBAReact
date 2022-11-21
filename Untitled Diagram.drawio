@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-14T13:29:51.892Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="naAABAm_Kq5v2AAH1Um1" version="20.5.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-11-21T15:46:37.142Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="bjgjXfaT5NfhmLrn5-37" version="20.5.3" type="github" pages="5">
   <diagram id="4_VP_UPlwPBC3L0X7IEa" name="Page-1">
-    <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -222,6 +222,53 @@
         </mxCell>
         <mxCell id="NBEE_8oVv4zDzEEFWG0e-1" value="compo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-55" y="2150" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="DT00JL9Z4rX1r1yWPlmR" name="Page-5">
+    <mxGraphModel dx="1426" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rhpL0OvrHadPBu6uKiG9-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rhpL0OvrHadPBu6uKiG9-1" target="rhpL0OvrHadPBu6uKiG9-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rhpL0OvrHadPBu6uKiG9-1" value="ErrorBoundary" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rhpL0OvrHadPBu6uKiG9-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rhpL0OvrHadPBu6uKiG9-2" target="rhpL0OvrHadPBu6uKiG9-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rhpL0OvrHadPBu6uKiG9-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rhpL0OvrHadPBu6uKiG9-2" target="rhpL0OvrHadPBu6uKiG9-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rhpL0OvrHadPBu6uKiG9-2" value="Constructor/state variables" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rhpL0OvrHadPBu6uKiG9-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rhpL0OvrHadPBu6uKiG9-4" target="rhpL0OvrHadPBu6uKiG9-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rhpL0OvrHadPBu6uKiG9-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rhpL0OvrHadPBu6uKiG9-4" target="rhpL0OvrHadPBu6uKiG9-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rhpL0OvrHadPBu6uKiG9-4" value="Functions to catch the errors" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rhpL0OvrHadPBu6uKiG9-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rhpL0OvrHadPBu6uKiG9-6" target="rhpL0OvrHadPBu6uKiG9-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rhpL0OvrHadPBu6uKiG9-6" value="rendering" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rhpL0OvrHadPBu6uKiG9-8" value="FallBackUI" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rhpL0OvrHadPBu6uKiG9-10" value="getDerivedStateFromError&lt;br&gt;(this static method which is just executed before the DOM is ready (during the rendering phase) &lt;br&gt;&lt;br&gt;this will get invoked whenever descendant components&lt;br&gt;throws an error.&lt;br&gt;&lt;br&gt;componentDidCatch: this will get invoked whenever a descendent component throws an error. &amp;nbsp;this is called during the commit phase(when DOM is ready ). &amp;nbsp;this will receive two parameters : 1. error&amp;nbsp;&lt;br&gt;2. info&lt;br&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="450" width="250" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="rhpL0OvrHadPBu6uKiG9-12" value="hasError" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="480" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
